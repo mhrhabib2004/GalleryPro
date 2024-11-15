@@ -10,6 +10,7 @@ import Home from './Home/Home';
 import ErrorElement from './Components/ErrorElement/ErrorElement';
 import Contact from './Components/ContactUs/Contact';
 import TeamSection from './Components/TeamSection/TeamSection';
+import AboutUs from './Components/AboutUs/AboutUs';
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:"/Team",
         element:<TeamSection/>
+      },
+      {
+        path:"/AboutUs",
+        element:<AboutUs/>
       }
     ]
   },
