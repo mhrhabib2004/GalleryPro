@@ -92,15 +92,15 @@ const AboutUs = () => {
       <h2 className="text-2xl font-bold">Patient Testimonials</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8 max-w-5xl mx-auto">
         <div className="p-4 shadow-lg rounded-lg bg-green-600 hover:bg-green-500 transition-colors">
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet tristique mi."</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet tristique mi.</p>
           <h3 className="mt-4 font-bold">- Patient A</h3>
         </div>
         <div className="p-4 shadow-lg rounded-lg bg-green-600 hover:bg-green-500 transition-colors">
-          <p>"Nullam ac augue eget diam posuere vehicula. Vivamus quis nulla ac justo euismod posuere."</p>
+          <p>Nullam ac augue eget diam posuere vehicula. Vivamus quis nulla ac justo euismod posuere.</p>
           <h3 className="mt-4 font-bold">- Patient B</h3>
         </div>
         <div className="p-4 shadow-lg rounded-lg bg-green-600 hover:bg-green-500 transition-colors">
-          <p>"Fusce tincidunt, arcu nec vestibulum tincidunt, eros massa ullamcorper urna."</p>
+          <p>Fusce tincidunt, arcu nec vestibulum tincidunt, eros massa ullamcorper urna.</p>
           <h3 className="mt-4 font-bold">- Patient C</h3>
         </div>
       </div>
