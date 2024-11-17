@@ -11,6 +11,7 @@ import ErrorElement from './Components/ErrorElement/ErrorElement';
 import Contact from './Components/ContactUs/Contact';
 import TeamSection from './Components/TeamSection/TeamSection';
 import AboutUs from './Components/AboutUs/AboutUs';
+import Photoviews from './Components/PhotoViews/Photoviews';
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path:"/AboutUs",
         element:<AboutUs/>
+      },
+      {
+        path:"/allphotos",
+        element:<Photoviews/>
       }
     ]
   },
